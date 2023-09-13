@@ -13,5 +13,5 @@ PATH = os.getcwd()
 file_nm = '/mkdirtest/a/b/c'
 print(PATH)
 print(file_nm)
-#os.makedirs(PATH + file_nm, exist_ok = False)
 os.makedirs(PATH + file_nm, exist_ok=True)
+os.makedirs(PATH + file_nm, exist_ok = False)
