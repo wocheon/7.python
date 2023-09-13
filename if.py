@@ -7,8 +7,10 @@ while a<=30:
 	div_mod=divmod(a, 5)
 	if div==0:
 		print( str(a) + ": true " +  str(div_mod) )
+	elif div==1:
+		print( str(a) + ": check " +  str(div_mod) )
 	else:
 		print( str(a) + ": false " +  str(div_mod) )
 	a = a + 1
 
-print(done)
+print("done")
