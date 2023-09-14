@@ -1,15 +1,15 @@
 #!/usr/bin/env python
 
-print "#1"
+print ("#1")
 names=['john', 'jane', 'tome']
 print ("var : " + str(names))
 print('names[0] :' + names[0])
 print('names[1] :' + names[1])
 print('names[2] :' + names[2])
 #print('names[3] :' + names[3])
-print "\n"
+print ("\n")
 
-print "#2"
+print ("#2")
 nested_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 print ("var : " + str(nested_list))
 
